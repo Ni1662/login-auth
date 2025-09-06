@@ -11,7 +11,7 @@ export default function FreeComponent() {
         // set configurations for the API call here
         const configuration = {
             method: "get",
-            url: "https://ripe-fine-mollusk.glitch.me/free-endpoint",
+            url: "https://login-api-mu.vercel.app/free-endpoint",
         };
 
         // make the API call

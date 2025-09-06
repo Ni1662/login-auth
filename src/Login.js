@@ -17,7 +17,7 @@ export default function Login() {
     // set configurations
     const configuration = {
       method: "post",
-      url: "https://ripe-fine-mollusk.glitch.me/login",
+      url: "https://login-api-mu.vercel.app/login",
       data: {
         email,
         password,

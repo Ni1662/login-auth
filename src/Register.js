@@ -15,7 +15,7 @@ export default function Register() {
         // set configurations
         const configuration = {
             method: "post",
-            url: "https://ripe-fine-mollusk.glitch.me/register",
+            url: "https://login-api-mu.vercel.app/register",
             data: {
                 email,
                 password,

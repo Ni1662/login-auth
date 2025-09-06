@@ -5,7 +5,6 @@ import FreeComponent from "./FreeComponent";
 import ProtectedRoutes from "./ProtectedRoutes";
 import AuthComponent from "./AuthComponent";
 
-
 function App() {
   return (
     <Container>
@@ -26,10 +25,7 @@ function App() {
         <Route exact path="/free" component={FreeComponent} />
         <ProtectedRoutes path="/auth" component={AuthComponent} />
       </Switch>
-      
     </Container>
-
-
   );
 }
 

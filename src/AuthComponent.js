@@ -16,7 +16,7 @@ export default function AuthComponent() {
     // set configurations for the API call here
     const configuration = {
       method: "get",
-      url: "https://ripe-fine-mollusk.glitch.me/auth-endpoint",
+      url: "https://login-api-mu.vercel.app/auth-endpoint",
       headers: {
         Authorization: `Bearer ${token}`,
       },
